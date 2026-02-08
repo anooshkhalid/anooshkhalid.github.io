@@ -3,784 +3,527 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khalid Ahmad Fazli | Team Lead & Senior Android Engineer · Mobile Architect</title>
-  <meta name="description" content="Senior Android Engineer & Mobile Architect. Ride-hailing, fintech, on-demand platforms. Team Lead at Grepix Infotech. Kotlin, Java, Compose. Open to remote & global roles." />
+  <title>Khalid Ahmad Fazli | Team Lead & Senior Android Engineer</title>
+  <meta name="description" content="Senior Android Engineer & Mobile Architect. Ride-hailing, fintech, on-demand platforms. Acting Team Lead at Grepix Infotech. Kotlin, Java, Compose." />
   <meta name="color-scheme" content="dark light" />
-  <meta name="theme-color" content="#0B1214" />
+  <meta name="theme-color" content="#0a192f" />
   <meta property="og:title" content="Khalid Ahmad Fazli | Team Lead & Senior Android Engineer" />
-  <meta property="og:description" content="Senior Android Engineer & Mobile Architect. Ride-hailing, fintech, on-demand platforms. Team Lead at Grepix Infotech." />
+  <meta property="og:description" content="Senior Android Engineer & Mobile Architect. Ride-hailing, fintech, on-demand platforms. Acting Team Lead at Grepix Infotech." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="image" href="hero-bg.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="noise-overlay" aria-hidden="true"></div>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-  <header class="header header-minimal">
-    <nav class="nav container">
-      <a href="#hero" class="logo">Khalid Ahmad Fazli</a>
-      <ul id="primary-nav" class="nav-links nav-links-minimal" aria-label="Primary">
-        <li><a href="#products">My Portfolio</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button class="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
-          <span class="theme-icon sun" aria-hidden="true">☀️</span>
-          <span class="theme-icon moon" aria-hidden="true">🌙</span>
-        </button>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-controls="primary-nav" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
-  </header>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="intro">
+          <h1 class="name">Khalid&nbsp;Ahmad Fazli</h1>
+          <p class="role">Acting Team Lead · Senior Android Engineer</p>
+          <p class="tagline">I build scalable, production-grade Android platforms across ride-hailing, fintech, logistics, and on-demand services.</p>
+        </div>
 
-  <main id="main">
-    <!-- 1. Hero – starter / minimal like khaledux.de -->
-    <section id="hero" class="hero hero-starter" aria-labelledby="hero-title">
-      <div class="hero-bg hero-bg-minimal">
-        <img class="hero-bg-image" src="hero-bg.png" alt="" decoding="async" fetchpriority="high">
-        <div class="hero-bg-overlay"></div>
-        <div class="hero-gradient"></div>
-      </div>
-      <div class="container hero-inner hero-inner-starter">
-        <h1 id="hero-title" class="hero-name-starter">Khalid Ahmad Fazli</h1>
-        <p class="hero-role-starter">Team Lead & Senior Android Engineer · Mobile Architect</p>
-        <p class="hero-tagline-starter">Ride-Hailing, Fintech & On-Demand Platforms</p>
-        <nav class="hero-nav-links">
-          <a href="#products">My Portfolio</a>
-          <a href="#about">About Me</a>
+        <nav class="side-nav" aria-label="Primary">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Top Skills</a>
+          <a href="#tech" class="nav-link">Tech Stack</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </nav>
-        <a href="#contact" class="hero-cta-starter">Talk to me now</a>
-      </div>
-      <div class="stats-strip container stats-strip-starter">
-        <div class="stat-item">
-          <span class="stat-value">10+</span>
-          <span class="stat-label">Years Experience</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-value">100+</span>
-          <span class="stat-label">Delivered Projects</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-value">30K+</span>
-          <span class="stat-label">Active Users</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-value">50+</span>
-          <span class="stat-label">Payment Gateways</span>
-        </div>
-      </div>
-      <div class="scroll-hint">
-        <span>Scroll</span>
-        <div class="scroll-line"></div>
-      </div>
-    </section>
 
-    <!-- 2. About Me (no photo) -->
-    <section id="about" class="section about" aria-labelledby="about-title">
-      <div class="container">
-        <h2 id="about-title" class="section-title">About Me</h2>
-        <div class="about-grid about-grid-no-photo">
-          <div class="about-content">
-            <p class="about-lead">Senior Android Engineer and Mobile Architect with <strong>10+ years</strong> building large-scale, production-grade mobile platforms across ride-hailing, fintech, logistics, food delivery, e-learning, and on-demand services.</p>
-            <p>Currently <strong>Acting Team Lead – Android</strong> at <strong>Grepix Infotech</strong>, leading Android architecture and development for multi-app ecosystems (Customer, Driver, Merchant, Admin) deployed across multiple regions with localization and theming support.</p>
-            <p>Core expertise includes <strong>ride-hailing platforms</strong> (bidding, pooling, recurring rides, toll automation, red zones, gender preferences); <strong>fintech & digital payments</strong> (wallets, bank transfers, QR payments, prepaid & postpaid flows); scalable Android architectures using <strong>MVVM, Jetpack, and Jetpack Compose</strong>; secure API communication with encryption and payment gateway integrations; and <strong>location-heavy systems</strong> with real-time tracking and advanced route analysis.</p>
-            <p>Previously worked on <strong>Afghanistan’s first online payment platform (HesabPay)</strong> and co-founded the e-learning product <strong>Maktab</strong>, which scaled to 30,000+ active users before suspension in 2025 due to financial constraints.</p>
-            <p>I enjoy solving complex problems involving scalability, payments, real-time data, and business-critical logic. I’ve worked across <strong>Android, iOS, Desktop, and Web</strong>, bringing a system-level, cross-platform mindset to product development. <strong>Open to senior, lead, staff, and architecture-focused roles.</strong></p>
-          </div>
-          <div class="about-meta about-meta-standalone">
-            <div class="meta-card">
-              <span class="meta-label">Role</span>
-              <span class="meta-value">Acting Team Lead – Android</span>
-            </div>
-            <div class="meta-card">
-              <span class="meta-label">Location</span>
-              <span class="meta-value">Noida, Uttar Pradesh, India</span>
-            </div>
-            <div class="meta-card">
-              <span class="meta-label">Open to</span>
-              <span class="meta-value">Senior · Lead · Staff · Architecture · Remote / Global</span>
-            </div>
-          </div>
+        <div class="socials">
+          <a href="mailto:anooshkhalid@gmail.com" class="social-link">Email</a>
+          <a href="tel:+917838578302" class="social-link">Phone</a>
+          <a href="https://www.linkedin.com/in/khalid-ahmad-fazli-448837a2" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+        </div>
+
+        <div class="sidebar-meta">
+          <p>Noida, Uttar Pradesh, India</p>
         </div>
       </div>
-    </section>
+    </aside>
 
-    <!-- 3. Core Expertise -->
-    <section id="expertise" class="section expertise" aria-labelledby="expertise-title">
-      <div class="container">
-        <h2 id="expertise-title" class="section-title">Core Expertise</h2>
-        <div class="expertise-grid">
-          <article class="expertise-card">
-            <div class="expertise-icon" aria-hidden="true">📱</div>
-            <h3>Android Architecture</h3>
-            <p>MVVM, Jetpack, Jetpack Compose. Scalable, maintainable codebases for multi-app ecosystems and feature-rich production apps.</p>
-          </article>
-          <article class="expertise-card">
-            <div class="expertise-icon" aria-hidden="true">💳</div>
-            <h3>Payments & Fintech</h3>
-            <p>Wallets, bank transfers, QR payments, prepaid & postpaid flows. Secure API design and multiple payment gateway integrations.</p>
-          </article>
-          <article class="expertise-card">
-            <div class="expertise-icon" aria-hidden="true">🚗</div>
-            <h3>Ride-Hailing & On-Demand</h3>
-            <p>Bidding, pooling, recurring rides, toll automation, red zones, gender preferences. End-to-end ride and on-demand service logic.</p>
-          </article>
-          <article class="expertise-card">
-            <div class="expertise-icon" aria-hidden="true">🗺️</div>
-            <h3>Maps & Location Intelligence</h3>
-            <p>Real-time tracking, advanced route and distance analysis. Improved route accuracy and distance calculation using enhanced map and location APIs for mobility and logistics.</p>
-          </article>
-          <article class="expertise-card">
-            <div class="expertise-icon" aria-hidden="true">🔒</div>
-            <h3>Security & Encryption</h3>
-            <p>Secure APIs, AES encryption, PCI-aware flows. Payment and data protection in production mobile apps.</p>
-          </article>
+    <main id="content" class="content">
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <div class="section-body">
+          <p>Senior Android Engineer and Mobile Architect with <strong>10+ years</strong> building large-scale, production-grade platforms across ride-hailing, fintech, logistics, food delivery, e-learning, and on-demand services.</p>
+          <p>Currently <strong>Acting Team Lead</strong> at <strong>Grepix Infotech</strong>, leading Android architecture and development for multi-app ecosystems (Customer, Driver, Merchant, Admin) deployed across multiple regions with localization and theming support.</p>
+          <p>Core expertise includes <strong>ride-hailing platforms</strong> (bidding, pooling, recurring rides, toll automation, red zones, gender preferences); <strong>fintech & digital payments</strong> (wallets, bank transfers, QR payments, prepaid & postpaid flows); scalable Android architectures using <strong>MVVM, Jetpack, and Jetpack Compose</strong>; secure API communication with encryption and payment gateway integrations; and <strong>location-heavy systems</strong> with real-time tracking and advanced route analysis.</p>
+          <p>Previously worked on <strong>Afghanistan’s first online payment platform (HesabPay)</strong> and co-founded the e-learning product <strong>Maktab</strong>, which scaled to 30,000+ active users before suspension in 2025 due to financial constraints.</p>
+          <p>Hands-on experience across <strong>Android, iOS, Desktop, and Web</strong>, with a system-level, cross-platform mindset. Open to senior, lead, staff, and architecture-focused roles.</p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 4. Products & Platforms -->
-    <section id="products" class="section products" aria-labelledby="products-title">
-      <div class="container">
-        <h2 id="products-title" class="section-title">Products & Platforms</h2>
-        <div class="products-grid">
-          <article class="product-card">
-            <div class="product-card-image product-card-image-1">
-              <span class="product-card-image-label">Ride-Hailing</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Ride-Hailing & Mobility</h3>
-              <p><strong>HireMe, Bid-n-Ride, UberApps, Buber.</strong> Multi-app (Customer, Driver, Merchant, Admin), bidding, pooling, recurring rides, toll automation, red zones, gender preference. VOIP in-app calling without number sharing.</p>
-              <details class="product-details">
-                <summary>HireMe — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>VOIP in-app calls without number sharing</li>
-                  <li>Single ride & street pickup</li>
-                  <li>Optional destination (skip drop location)</li>
-                  <li>Car rentals with driver (hours or days)</li>
-                  <li>Outstation trips with return options</li>
-                  <li>InDriver bid/post flow</li>
-                  <li>Multiple stops</li>
-                  <li>Change destination mid-trip</li>
-                  <li>Manual or auto tolls on predefined zones</li>
-                  <li>Red zones (restricted areas)</li>
-                  <li>Gender preference</li>
-                  <li>Special requirements (wheelchair, baby seat)</li>
-                  <li>Ride pooling</li>
-                  <li>Recurring rides (ride pass)</li>
-                  <li>Driver subscriptions (fixed fees)</li>
-                  <li>Agencies & companies (fleet owners)</li>
-                  <li>Corporate rides with billing & policies</li>
-                  <li>Deliveries module (parcels)</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                  <li>Pre-payment support</li>
-                  <li>Multiple home page UI designs</li>
-                  <li>Dark and light themes</li>
-                  <li>Loyalty points</li>
-                  <li>Enhanced route analysis for accurate distance</li>
-                </ul>
-              </details>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-2">
-              <span class="product-card-image-label">Fintech</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Fintech · HesabPay & Merchant</h3>
-              <p><strong>HesabPay</strong>—Afghanistan’s first digital payment ecosystem: wallet, bank transfers, bill payments, mobile recharge. <strong>HesabPay Merchant</strong>: invoicing, QR payments, e-commerce billing. Security layers for transactions and app access.</p>
-              <details class="product-details">
-                <summary>HesabPay — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Mobile credit recharge</li>
-                  <li>Electricity bill payments</li>
-                  <li>Bank-to-bank and in-app transfers</li>
-                  <li>Pay for shopping</li>
-                  <li>Security lock for app access</li>
-                </ul>
-              </details>
-              <details class="product-details">
-                <summary>HesabPay Merchant — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Invoicing and bill generation</li>
-                  <li>Receive payments via QR code</li>
-                  <li>E-commerce item selection and checkout</li>
-                </ul>
-              </details>
+      <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-body">
+          <article class="exp-item">
+            <div class="exp-content">
+              <div class="company-header">
+                <h3>Grepix Infotech</h3>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Jan 2026 — Present</div>
+                <div class="role-body">
+                  <h4>Acting Team Lead – Android</h4>
+                  <p>Leading Android development activities across mobility and on-demand platforms.</p>
+                  <ul class="exp-list">
+                    <li>Acting team lead for Android developers.</li>
+                    <li>Architecture decisions, code reviews, and technical guidance.</li>
+                    <li>Coordination with backend, product, and QA teams.</li>
+                    <li>Ensuring scalability, performance, and release stability.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Jun 2024 — Dec 2025</div>
+                <div class="role-body">
+                  <h4>Lead Android Developer</h4>
+                  <ul class="exp-list">
+                    <li>Led Android feature development for large-scale ride-hailing and on-demand systems.</li>
+                    <li>Owned modules including payments, maps, subscriptions, and ride logic.</li>
+                    <li>Mentored developers and enforced best practices.</li>
+                    <li>Worked with stakeholders on feasibility and timelines.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Jun 2022 — May 2024</div>
+                <div class="role-body">
+                  <h4>Senior Android Developer</h4>
+                  <ul class="exp-list">
+                    <li>Designed and implemented advanced ride-hailing features.</li>
+                    <li>Built scalable MVVM-based architecture using Jetpack.</li>
+                    <li>Integrated multiple payment gateways and secure APIs.</li>
+                    <li>Improved performance, stability, and maintainability.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Jul 2019 — May 2022</div>
+                <div class="role-body">
+                  <h4>Android Application Developer</h4>
+                  <p><strong>Products:</strong> HireMe, Bid-n-Ride, UberApps, OnDemand, MasalaDish, GTA, InstaReq</p>
+                  <ul class="exp-list">
+                    <li>Developed and maintained ride-hailing and on-demand apps using Java and Kotlin.</li>
+                    <li>Implemented core product features and UI flows.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-3">
-              <span class="product-card-image-label">E-Learning</span>
-            </div>
-            <div class="product-card-body">
-              <h3>E-Learning · Maktab</h3>
-              <p>Co-founded e-learning platform with <strong>30,000+ active users</strong>. Real-time and offline student challenges, video courses with offline download/playback, AI-assisted exam logic, weekly leaderboards, social features. Optimized for low-bandwidth. <em>Suspended in 2025 due to financial constraints.</em></p>
-              <details class="product-details">
-                <summary>Maktab — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Realtime student challenges and scoring</li>
-                  <li>Offline challenges between students</li>
-                  <li>Video courses with offline download and playback</li>
-                  <li>Exam prep with large question banks</li>
-                  <li>AI logic to skip mastered questions and target weaknesses</li>
-                  <li>Weekly leaderboards</li>
-                  <li>Student social network (posts, comments, media)</li>
-                  <li>Emoji, sticker, and image-supported comments</li>
-                </ul>
-              </details>
+
+          <article class="exp-item">
+            <div class="exp-content">
+              <div class="company-header">
+                <h3>Maktab</h3>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Mar 2017 — Present</div>
+                <div class="role-body">
+                  <h4>Co-Founder & Lead Android Application Developer</h4>
+                  <ul class="exp-list">
+                    <li>Co-founded and led Android development for an e-learning platform with 30,000+ active users.</li>
+                    <li>Built real-time and offline challenges, video courses, and AI-assisted exam logic.</li>
+                    <li>Platform suspended in 2025 due to financial constraints.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-4">
-              <span class="product-card-image-label">Logistics</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Logistics, Food Delivery & Services</h3>
-              <p><strong>OnDemand, MasalaDish, GTA, InstaReq.</strong> Logistics, food delivery, roadside assistance, and on-demand service platforms with real-time synchronization across Customer, Driver, and Store/Admin apps.</p>
-              <details class="product-details">
-                <summary>OnDemand — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Service-based marketplace (plumbing, barber, etc.)</li>
-                  <li>Pricing types: fixed, hourly, bid</li>
-                  <li>Operational hours or manual availability</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                </ul>
-              </details>
-              <details class="product-details">
-                <summary>MasalaDish — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>3 separate apps: Customer, Store, Driver</li>
-                  <li>Pre-payment and cash on delivery</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                </ul>
-              </details>
-              <details class="product-details">
-                <summary>GTA — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Logistics for parcels, packages, bulk shipments</li>
-                  <li>Pre-payment and post-payment</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                </ul>
-              </details>
-              <details class="product-details">
-                <summary>InstaReq — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>Roadside assistance: flat tyre, fuel, tow, etc.</li>
-                  <li>Pre-payment and post-payment</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                </ul>
-              </details>
+
+          <article class="exp-item">
+            <div class="exp-content">
+              <div class="company-header">
+                <h3>Moore Afghanistan</h3>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Aug 2017 — Oct 2018</div>
+                <div class="role-body">
+                  <h4>Senior Android Developer</h4>
+                  <ul class="exp-list">
+                    <li>Worked on Afghanistan’s first online payment platform (HesabPay).</li>
+                    <li>Built secure wallet, bank transfer, bill payment, and recharge features.</li>
+                    <li>Built and maintained ride-hailing apps.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Dec 2016 — Jul 2017</div>
+                <div class="role-body">
+                  <h4>Mobile Application Developer</h4>
+                  <ul class="exp-list">
+                    <li>Developed Android apps using Java.</li>
+                    <li>Worked on HesabPay and ride-hailing apps.</li>
+                    <li>Collaborated with backend and product teams.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Sep 2016 — Nov 2016</div>
+                <div class="role-body">
+                  <h4>Mobile Application Developer Intern</h4>
+                  <ul class="exp-list">
+                    <li>Promoted to full-time developer within 3 months.</li>
+                    <li>Assisted in Android development and debugging.</li>
+                    <li>Learned production-level mobile application development.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-5">
-              <span class="product-card-image-label">On-Demand</span>
+
+          <article class="exp-item">
+            <div class="exp-content">
+              <div class="company-header">
+                <h3>BLUESONIC</h3>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Sep 2015 — Mar 2016</div>
+                <div class="role-body">
+                  <h4>Windows Store Application Developer</h4>
+                  <ul class="exp-list">
+                    <li>Developed Hijri-E-Shamsi Calendar with Dari, Pashto, and English support.</li>
+                    <li>Implemented date conversion and event synchronization.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="product-card-body">
-              <h3>Multi-App Ecosystems</h3>
-              <p>Large-scale platforms (Customer, Driver, Merchant, Admin) with real-time sync, localization, multi-region support, and dark/light themes. Pre-payment and post-payment flows with multiple payment gateways.</p>
-              <details class="product-details">
-                <summary>Bid-n-Ride — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>VOIP in-app calls without number sharing</li>
-                  <li>InDriver bid/post flow</li>
-                  <li>Manual tolls</li>
-                  <li>Red zones (restricted areas)</li>
-                  <li>Gender preference</li>
-                  <li>Driver subscriptions (fixed fees)</li>
-                  <li>Multi-location support (region/sub-region)</li>
-                  <li>Localization (multi-language)</li>
-                  <li>Pre-payment support</li>
-                  <li>Dark and light themes</li>
-                </ul>
-              </details>
-              <details class="product-details">
-                <summary>UberApps — Feature Set</summary>
-                <ul class="feature-list">
-                  <li>VOIP in-app calls without number sharing</li>
-                  <li>Optional destination (skip drop location)</li>
-                  <li>Manual or auto tolls on predefined zones</li>
-                  <li>Red zones (restricted areas)</li>
-                  <li>Special requirements (wheelchair, baby seat)</li>
-                  <li>Driver subscriptions (fixed fees)</li>
-                  <li>Multi-location support</li>
-                  <li>Localization (multi-language)</li>
-                  <li>Pre-payment support</li>
-                </ul>
-              </details>
+          </article>
+
+          <article class="exp-item">
+            <div class="exp-content">
+              <div class="company-header">
+                <h3>Elitech</h3>
+              </div>
+              <div class="role-block">
+                <div class="role-range">Nov 2014 — May 2015</div>
+                <div class="role-body">
+                  <h4>Desktop Application Developer</h4>
+                  <ul class="exp-list">
+                    <li>Built WPF-based inventory management systems.</li>
+                    <li>Designed responsive desktop UI/UX.</li>
+                    <li>Worked with SQL Server (queries, triggers, stored procedures).</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 4.5 Additional Projects -->
-    <section id="additional-projects" class="section products" aria-labelledby="additional-title">
-      <div class="container">
-        <h2 id="additional-title" class="section-title">Additional Projects</h2>
-        <div class="products-grid">
-          <article class="product-card">
-            <div class="product-card-image product-card-image-2">
-              <span class="product-card-image-label">Payments</span>
-            </div>
-            <div class="product-card-body">
-              <h3>HesabPay Merchant & Payments Stack</h3>
-              <p>Invoicing, QR payments, and e-commerce billing for merchants. Built with secure transaction layers.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-1">
-              <span class="product-card-image-label">Ride-Hailing</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Buber</h3>
-              <p>Ride-hailing apps for riders and drivers with realtime updates and ride-sharing support.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-3">
-              <span class="product-card-image-label">Windows</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Hijri-E-Shamsi Calendar</h3>
-              <p>Windows Store app with Dari, Pashto, and English support, date conversion, events sync, and multi-view calendar.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-4">
-              <span class="product-card-image-label">Concept</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Gun Registry Demo</h3>
-              <p>Concept demo for Ministry of Internal Affairs: scan firearm serial numbers to verify license and owner background.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-image product-card-image-5">
-              <span class="product-card-image-label">Desktop</span>
-            </div>
-            <div class="product-card-body">
-              <h3>Inventory Management System</h3>
-              <p>WPF desktop app with SQL Server integration, database design, and responsive UI/UX.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 5. Experience Timeline -->
-    <section id="experience" class="section experience" aria-labelledby="experience-title">
-      <div class="container">
-        <h2 id="experience-title" class="section-title">Experience</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Acting Team Lead – Android</h3>
-                <span class="timeline-date">Jan 2026 – Present</span>
-              </div>
-              <p class="timeline-location">Grepix Infotech · Noida, India</p>
-              <ul class="timeline-roles">
-                <li>Acting team lead for Android developers.</li>
-                <li>Architecture decisions, code reviews, and technical guidance.</li>
-                <li>Coordination with backend, product, and QA teams.</li>
-                <li>Ensuring scalability, performance, and release stability.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Lead Android Developer</h3>
-                <span class="timeline-date">Jun 2024 – Dec 2025</span>
-              </div>
-              <p class="timeline-location">Grepix Infotech · Noida, India</p>
-              <ul class="timeline-roles">
-                <li>Led Android feature development for large-scale ride-hailing and on-demand systems.</li>
-                <li>Owned modules including payments, maps, subscriptions, and ride logic.</li>
-                <li>Mentored developers and enforced best practices.</li>
-                <li>Worked with stakeholders on feasibility and timelines.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Senior Android Developer</h3>
-                <span class="timeline-date">Jun 2022 – May 2024</span>
-              </div>
-              <p class="timeline-location">Grepix Infotech · Noida, India</p>
-              <ul class="timeline-roles">
-                <li>Designed and implemented advanced ride-hailing features.</li>
-                <li>Built scalable MVVM-based architecture using Jetpack.</li>
-                <li>Integrated multiple payment gateways and secure APIs.</li>
-                <li>Improved performance, stability, and maintainability.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Android Application Developer</h3>
-                <span class="timeline-date">Jul 2019 – May 2022</span>
-              </div>
-              <p class="timeline-location">Grepix Infotech · Noida, India</p>
-              <p class="timeline-products"><strong>Products:</strong> HireMe, Bid-n-Ride, UberApps, OnDemand, MasalaDish, GTA, InstaReq</p>
-              <ul class="timeline-roles">
-                <li>Developed and maintained ride-hailing and on-demand apps using Java and Kotlin.</li>
-                <li>Implemented core product features and UI flows.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Co-Founder & Lead Android Application Developer</h3>
-                <span class="timeline-date">Mar 2017 – Present (Suspended 2025)</span>
-              </div>
-              <p class="timeline-location">Maktab · Afghanistan</p>
-              <ul class="timeline-roles">
-                <li>Co-founded and led Android development for e-learning platform with <strong>30,000+ active users</strong>.</li>
-                <li>Built real-time and offline student challenges with scoring; video courses with offline download and playback.</li>
-                <li>Developed AI-assisted exam preparation logic to identify weaknesses and skip mastered questions.</li>
-                <li>Designed weekly leaderboards and student social features (posts, comments, media sharing).</li>
-                <li>Optimized app performance for low-bandwidth environments.</li>
-                <li><em>Platform suspended in 2025 due to financial constraints, not technical limitations.</em></li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Senior Android Developer</h3>
-                <span class="timeline-date">Aug 2017 – Oct 2018</span>
-              </div>
-              <p class="timeline-location">Moore Afghanistan · Kabul</p>
-              <ul class="timeline-roles">
-                <li>Worked on Afghanistan’s first online payment platform (HesabPay).</li>
-                <li>Developed secure wallet, bank transfer, bill payment, and recharge features.</li>
-                <li>Built and maintained ride-hailing applications.</li>
-                <li>Focused on security, performance, and reliability.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Mobile Application Developer</h3>
-                <span class="timeline-date">Dec 2016 – Jul 2017</span>
-              </div>
-              <p class="timeline-location">Moore Afghanistan · Kabul</p>
-              <ul class="timeline-roles">
-                <li>Developed Android apps using Java.</li>
-                <li>Worked on HesabPay and ride-hailing apps.</li>
-                <li>Collaborated with backend and product teams.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Mobile Application Developer Intern</h3>
-                <span class="timeline-date">Sep 2016 – Nov 2016</span>
-              </div>
-              <p class="timeline-location">Moore Afghanistan · Kabul</p>
-              <ul class="timeline-roles">
-                <li>Promoted to full-time developer within 3 months.</li>
-                <li>Assisted in Android development and debugging.</li>
-                <li>Learned production-level mobile application development.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Windows Store Application Developer</h3>
-                <span class="timeline-date">Sep 2015 – Mar 2016</span>
-              </div>
-              <p class="timeline-location">BLUESONIC · Kabul</p>
-              <ul class="timeline-roles">
-                <li>Developed Hijri-E-Shamsi Calendar with Dari, Pashto, and English support.</li>
-                <li>Implemented date conversion and event synchronization.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Desktop Application Developer</h3>
-                <span class="timeline-date">Nov 2014 – May 2015</span>
-              </div>
-              <p class="timeline-location">Elitech · Afghanistan</p>
-              <ul class="timeline-roles">
-                <li>Designed and developed <strong>WPF-based Inventory Management Systems</strong>.</li>
-                <li>Worked with SQL Server (queries, joins, triggers, stored procedures); responsive desktop UI/UX with maintainable architecture.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. Tech Stack -->
-    <section id="tech-stack" class="section tech-stack" aria-labelledby="tech-title">
-      <div class="container">
-        <h2 id="tech-title" class="section-title">Tech Stack</h2>
-        <div class="tech-grid">
-          <div class="tech-group">
-            <h3>Android</h3>
-            <ul class="tech-tags">
-              <li>Kotlin</li>
-              <li>Java</li>
-              <li>Jetpack</li>
-              <li>Jetpack Compose</li>
-              <li>MVVM Architecture</li>
-              <li>Android SDK</li>
-              <li>Gradle · MultiDex</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>Jetpack & UI</h3>
-            <ul class="tech-tags">
-              <li>AppCompat</li>
-              <li>Navigation</li>
-              <li>RoomDB</li>
-              <li>ViewModel</li>
-              <li>LiveData · Flow</li>
-              <li>ViewBinding</li>
-              <li>WorkManager</li>
-              <li>Lifecycle</li>
-              <li>RecyclerView</li>
-              <li>ConstraintLayout</li>
-              <li>Fragments</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>APIs & Networking</h3>
-            <ul class="tech-tags">
-              <li>REST APIs</li>
-              <li>Retrofit · OkHttp</li>
-              <li>Volley</li>
-              <li>XML · JSON</li>
-              <li>Payment Gateway Integration</li>
-              <li>Encryption & App Security (AES)</li>
-              <li>ProGuard</li>
-              <li>Postman Collections</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>Maps & Media</h3>
-            <ul class="tech-tags">
-              <li>Google Maps & Location APIs</li>
-              <li>Fused Location Provider</li>
-              <li>Location Manager</li>
-              <li>Marker Animations</li>
-              <li>Real-time Tracking</li>
-              <li>ExoPlayer / Media3</li>
-              <li>Media Streaming</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>Other</h3>
-            <ul class="tech-tags">
-              <li>WPF (.NET)</li>
-              <li>Swift</li>
-              <li>PHP · HTML5 · CSS3 · JavaScript</li>
-              <li>Git</li>
-              <li>AI-assisted Dev (ChatGPT, Gemini, Cursor)</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>Foundations</h3>
-            <ul class="tech-tags">
-              <li>Collections: List, Stack, Queue</li>
-              <li>Map · Set · Array</li>
-              <li>Architecture & Clean Code</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>Desktop & Windows</h3>
-            <ul class="tech-tags">
-              <li>WPF (C#)</li>
-              <li>Windows Store Apps</li>
-              <li>Windows Mobile</li>
-              <li>Universal Apps</li>
-              <li>Xamarin (Android, iOS)</li>
-              <li>SQL Server</li>
-            </ul>
-          </div>
-          <div class="tech-group">
-            <h3>iOS</h3>
-            <ul class="tech-tags">
-              <li>Swift</li>
-              <li>Storyboard</li>
-              <li>Alamofire</li>
-              <li>CocoaPods</li>
-            </ul>
-          </div>
-        </div>
-        <p class="tech-languages"><strong>Languages:</strong> Urdu · Persian · Dari · Hindi · Pashto · English</p>
-      </div>
-    </section>
-
-    <!-- 6.5 Top Skills -->
-    <section id="top-skills" class="section products" aria-labelledby="skills-title">
-      <div class="container">
-        <h2 id="skills-title" class="section-title">Top Skills</h2>
-        <div class="products-grid">
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Android Development</h3>
-              <p>Production-grade Android platforms with scalable architecture and high performance.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Java</h3>
-              <p>Robust Java development for mobile, backend integration, and legacy Android modules.</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Kotlin</h3>
-              <p>Modern Kotlin for clean, maintainable, and feature-rich Android apps.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. Education & Certifications -->
-    <section id="education" class="section education" aria-labelledby="education-title">
-      <div class="container">
-        <h2 id="education-title" class="section-title">Education & Certifications</h2>
-        <div class="products-grid">
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Kabul Polytechnic University</h3>
-              <p>Bachelor of Computer Science, Computer Software Engineering · 2012 – 2015</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Ghulam Haider Khan High School</h3>
-              <p>General Studies · 2000 – 2011</p>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card-body">
-              <h3>Certification</h3>
-              <p>Project Management</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. Achievements (Highlight) – background: add achievements-bg.jpg or profile.jpg for blurred bg -->
-    <section id="achievements" class="section achievements" aria-labelledby="achievements-title">
-      <div class="achievements-bg" aria-hidden="true">
-        <img class="achievements-bg-image" src="achievements-bg.jpg" alt="" loading="lazy" decoding="async">
-        <div class="achievements-bg-overlay"></div>
-      </div>
-      <div class="container achievements-inner">
-        <h2 id="achievements-title" class="section-title">Achievements</h2>
-        <div class="achievements-grid">
-          <article class="achievement-card">
-            <span class="achievement-number">100+</span>
-            <h3>Delivered 100+ Products</h3>
-            <p>Shipped 100+ mobile and desktop applications across ride-hailing, fintech, e-learning, logistics, and on-demand platforms.</p>
-          </article>
-          <article class="achievement-card">
-            <span class="achievement-number">1</span>
-            <h3>Centralized Payment System</h3>
-            <p>Designed and implemented unified pre-payment and post-payment flows across multi-app ecosystems for ride-hailing and on-demand platforms.</p>
-          </article>
-          <article class="achievement-card">
-            <span class="achievement-number">20+</span>
-            <h3>Global Payment Gateways</h3>
-            <p>Integrated 20+ payment gateways for wallets, bank transfers, QR payments, and region-specific methods in production apps.</p>
-            <details class="product-details product-details-compact">
-              <summary>Gateways Worked With</summary>
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-body">
+          <article class="project-card">
+            <h3>HireMe — Ride Hailing</h3>
+            <p>Multi-app ecosystem with advanced ride logic, payments, subscriptions, and localization.</p>
+            <details>
+              <summary>Feature Set</summary>
               <ul class="feature-list">
-                <li>Stripe · PayPal · Razorpay · PayU</li>
-                <li>Google Pay · DPO · PayGate</li>
-                <li>FastPay · PayFast · Airtel Money</li>
-                <li>MobileMoney · M-Pesa · Peach Payment</li>
-                <li>CXPay · PowerTrans · Papara</li>
-                <li>And more regional gateways</li>
+                <li>VOIP in-app calls without number sharing</li>
+                <li>Single ride and street pickup</li>
+                <li>Optional destination</li>
+                <li>Car rentals with driver</li>
+                <li>Outstation trips with return options</li>
+                <li>InDriver bid/post flow</li>
+                <li>Multiple stops and destination change</li>
+                <li>Manual or auto tolls on predefined zones</li>
+                <li>Red zones (restricted areas)</li>
+                <li>Gender preference</li>
+                <li>Special requirements (wheelchair, baby seat)</li>
+                <li>Ride pooling</li>
+                <li>Recurring rides (ride pass)</li>
+                <li>Driver subscriptions (fixed fees)</li>
+                <li>Agencies & companies (fleet owners)</li>
+                <li>Corporate rides with billing & policies</li>
+                <li>Deliveries module (parcels)</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+                <li>Pre-payment support</li>
+                <li>Multiple home page UI designs</li>
+                <li>Dark and light themes</li>
+                <li>Loyalty points</li>
+                <li>Enhanced route analysis for accurate distance</li>
               </ul>
             </details>
           </article>
-          <article class="achievement-card">
-            <span class="achievement-number">VOIP</span>
-            <h3>In-App Calling</h3>
-            <p>Built VOIP in-app calling without number sharing for ride-hailing and on-demand platforms.</p>
+
+          <article class="project-card">
+            <h3>Bid-n-Ride — Bidding Focus</h3>
+            <p>Ride-hailing platform centered on rider price bids and driver acceptance.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>VOIP in-app calls without number sharing</li>
+                <li>InDriver bid/post flow</li>
+                <li>Manual tolls</li>
+                <li>Red zones (restricted areas)</li>
+                <li>Gender preference</li>
+                <li>Driver subscriptions (fixed fees)</li>
+                <li>Multi-location support (region/sub-region)</li>
+                <li>Localization (multi-language)</li>
+                <li>Pre-payment support</li>
+                <li>Dark and light themes</li>
+              </ul>
+            </details>
           </article>
-          <article class="achievement-card">
-            <span class="achievement-number">Scale</span>
-            <h3>Multi-Region Production Apps</h3>
-            <p>Shipped and maintained production apps across multiple regions with localization, dark/light themes, and real-time synchronization.</p>
+
+          <article class="project-card">
+            <h3>UberApps — Ride Hailing</h3>
+            <p>Ride-hailing app with advanced control for riders and safety preferences.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>VOIP in-app calls without number sharing</li>
+                <li>Optional destination</li>
+                <li>Manual or auto tolls on predefined zones</li>
+                <li>Red zones (restricted areas)</li>
+                <li>Special requirements (wheelchair, baby seat)</li>
+                <li>Driver subscriptions (fixed fees)</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+                <li>Pre-payment support</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>OnDemand — Service Marketplace</h3>
+            <p>Home services platform covering plumbing, barbering, repairs, and more.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Service-based marketplace</li>
+                <li>Pricing types: fixed, hourly, bid</li>
+                <li>Operational hours or manual availability</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>MasalaDish — Food Delivery</h3>
+            <p>Three-app ecosystem for customers, stores, and delivery drivers.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Customer, Store, Driver apps</li>
+                <li>Pre-payment and cash on delivery</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>GTA — Logistics</h3>
+            <p>Parcel, package, and shipment deliveries in bulk or individually.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Logistics for parcels, packages, bulk shipments</li>
+                <li>Pre-payment and post-payment</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>InstaReq — Roadside Assistance</h3>
+            <p>Emergency services for flat tires, fuel, towing, and more.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Roadside assistance services</li>
+                <li>Pre-payment and post-payment</li>
+                <li>Multi-location support</li>
+                <li>Localization (multi-language)</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>HesabPay — Fintech Platform</h3>
+            <p>Afghanistan’s first online payment ecosystem.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Mobile credit recharge</li>
+                <li>Electricity bill payments</li>
+                <li>Bank-to-bank and in-app transfers</li>
+                <li>Pay for shopping</li>
+                <li>Security lock for app access</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>HesabPay Merchant</h3>
+            <p>Merchant app for invoicing, QR payments, and e-commerce billing.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Invoicing and bill generation</li>
+                <li>Receive payments via QR code</li>
+                <li>E-commerce item selection and checkout</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>Maktab — E-Learning</h3>
+            <p>Scaled to 30,000+ active users; suspended in 2025 due to financial constraints.</p>
+            <details>
+              <summary>Feature Set</summary>
+              <ul class="feature-list">
+                <li>Realtime student challenges and scoring</li>
+                <li>Offline challenges between students</li>
+                <li>Video courses with offline download and playback</li>
+                <li>Exam prep with large question banks</li>
+                <li>AI logic to target weaknesses</li>
+                <li>Weekly leaderboards</li>
+                <li>Social features (posts, comments, media)</li>
+                <li>Emoji, sticker, and image-supported comments</li>
+              </ul>
+            </details>
+          </article>
+
+          <article class="project-card">
+            <h3>Buber — Ride Hailing</h3>
+            <p>Rider and driver apps with realtime updates and ride sharing.</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Hijri-E-Shamsi Calendar</h3>
+            <p>Windows Store calendar app with Dari, Pashto, and English support, date conversion, events sync, and multi-view layouts.</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Gun Registry Demo</h3>
+            <p>Concept demo for Ministry of Internal Affairs to verify licenses by serial scan.</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Inventory Management System</h3>
+            <p>WPF desktop app with SQL Server integration and responsive UI/UX.</p>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 8. Contact -->
-    <section id="contact" class="section contact" aria-labelledby="contact-title">
-      <div class="container">
-        <h2 id="contact-title" class="section-title">Contact</h2>
-        <p class="contact-intro">Open to senior, lead, staff, and architecture-focused roles. <strong>Noida, Uttar Pradesh, India · Open to Remote / Global.</strong> Reach out for collaboration or opportunities.</p>
-        <div class="contact-links">
-          <a href="tel:+917838578302" class="contact-card">
-            <span class="contact-label">Phone</span>
-            <span class="contact-value">+91 78385 78302</span>
-          </a>
-          <a href="mailto:anooshkhalid@gmail.com" class="contact-card">
-            <span class="contact-label">Email</span>
-            <span class="contact-value">anooshkhalid@gmail.com</span>
-          </a>
-          <a href="https://www.linkedin.com/in/khalid-ahmad-fazli-448837a2" target="_blank" rel="noopener noreferrer" class="contact-card">
-            <span class="contact-label">LinkedIn</span>
-            <span class="contact-value">khalid-ahmad-fazli</span>
-          </a>
-          <span class="contact-card contact-card-static">
-            <span class="contact-label">Location</span>
-            <span class="contact-value">Noida, Uttar Pradesh, India</span>
-          </span>
+      <section id="skills" class="section">
+        <h2 class="section-title">Top Skills</h2>
+        <div class="section-body">
+          <div class="pill-grid">
+            <span class="pill">Android Development</span>
+            <span class="pill">Java</span>
+            <span class="pill">Kotlin</span>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© <span id="year"></span> Khalid Ahmad Fazli · Senior Android Engineer | Mobile Architect | Ride-Hailing, Fintech & On-Demand</p>
-    </div>
-  </footer>
+      <section id="tech" class="section">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="section-body">
+          <div class="grid-2">
+            <div>
+              <h3>Android</h3>
+              <ul class="stack-list">
+                <li>Kotlin, Java, Jetpack, Jetpack Compose</li>
+                <li>AppCompat, Navigation, RoomDB</li>
+                <li>ViewModel, LiveData, Flow, ViewBinding</li>
+                <li>WorkManager, Lifecycle, RecyclerView</li>
+                <li>ConstraintLayout, Fragments, MultiDex, Gradle</li>
+              </ul>
+            </div>
+            <div>
+              <h3>APIs, Security, Media</h3>
+              <ul class="stack-list">
+                <li>REST APIs (XML, JSON), Retrofit, OkHttp, Volley</li>
+                <li>Encryption (AES), ProGuard</li>
+                <li>ExoPlayer, Media3</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Maps & Location</h3>
+              <ul class="stack-list">
+                <li>Google Maps & Location APIs</li>
+                <li>Fused Location Provider, Location Manager</li>
+                <li>Markers, routes, marker animations</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Platforms & Tools</h3>
+              <ul class="stack-list">
+                <li>WPF, Windows Store, Windows Mobile, Universal Apps</li>
+                <li>Xamarin (Android, iOS), Swift, Storyboard, Alamofire, CocoaPods</li>
+                <li>PHP, HTML5, CSS3, JavaScript</li>
+                <li>Git (GitHub, Bitbucket), Postman</li>
+                <li>AI tools: ChatGPT, DeepSeek, Gemini, Cursor</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Foundations</h3>
+              <ul class="stack-list">
+                <li>Collections: List, Stack, Queue, Map, Set, Array</li>
+                <li>Architecture and clean code practices</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="langs">
+            <h3>Languages</h3>
+            <p>Urdu · Persian · Dari · Hindi · Pashto · English</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="section-body">
+          <div class="grid-2">
+            <div>
+              <h3>Kabul Polytechnic University</h3>
+              <p>Bachelor of Computer Science, Computer Software Engineering · 2012 – 2015</p>
+            </div>
+            <div>
+              <h3>Ghulam Haider Khan High School</h3>
+              <p>General Studies · 2000 – 2011</p>
+            </div>
+            <div>
+              <h3>Certification</h3>
+              <p>Project Management</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-body">
+          <p>Open to senior, lead, staff, and architecture-focused roles. Noida, Uttar Pradesh, India · Open to Remote / Global.</p>
+          <div class="contact-grid">
+            <a href="mailto:anooshkhalid@gmail.com" class="contact-card">anooshkhalid@gmail.com</a>
+            <a href="tel:+917838578302" class="contact-card">+91 78385 78302</a>
+            <a href="https://www.linkedin.com/in/khalid-ahmad-fazli-448837a2" target="_blank" rel="noopener noreferrer" class="contact-card">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Khalid Ahmad Fazli · Team Lead & Senior Android Engineer</p>
+      </footer>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
