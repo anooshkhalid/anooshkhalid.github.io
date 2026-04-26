@@ -11,6 +11,8 @@
   --accent: #1FB7AA;
   --accent-dim: rgba(31, 183, 170, 0.18);
   --accent-glow: rgba(31, 183, 170, 0.32);
+  --ai-accent: #7DE3FF;
+  --ai-glow: rgba(125, 227, 255, 0.24);
 
   --border: rgba(255, 255, 255, 0.06);
   --header-bg: rgba(11, 18, 20, 0.9);
@@ -30,6 +32,8 @@
   --accent: #0F8F86;
   --accent-dim: rgba(15, 143, 134, 0.12);
   --accent-glow: rgba(15, 143, 134, 0.22);
+  --ai-accent: #087EA4;
+  --ai-glow: rgba(8, 126, 164, 0.16);
 
   --border: rgba(17, 24, 39, 0.08);
   --header-bg: rgba(246, 248, 250, 0.92);
@@ -476,6 +480,12 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--text-muted);
   margin-bottom: 0.25rem;
 }
+.hero-title-highlight {
+  color: var(--ai-accent);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-shadow: 0 0 24px var(--ai-glow);
+}
 .hero-tagline-starter {
   font-size: 0.95rem;
   color: var(--accent);
@@ -659,6 +669,17 @@ img { max-width: 100%; height: auto; display: block; }
   border-color: var(--accent-dim);
   transform: translateY(-3px);
   box-shadow: 0 12px 32px var(--shadow);
+}
+.expertise-card-ai,
+.product-card-ai {
+  border-color: var(--ai-accent);
+  border-color: color-mix(in srgb, var(--ai-accent) 48%, var(--border));
+  box-shadow: 0 0 0 1px var(--ai-glow), 0 18px 40px rgba(0, 0, 0, 0.16);
+}
+.expertise-card-ai:hover,
+.product-card-ai:hover {
+  border-color: var(--ai-accent);
+  box-shadow: 0 0 0 1px var(--ai-glow), 0 18px 46px var(--ai-glow);
 }
 .expertise-icon { font-size: 2rem; margin-bottom: 1rem; }
 .expertise-card h3 {
@@ -845,6 +866,45 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 0.85rem;
   color: var(--accent);
   margin-bottom: 0.75rem;
+}
+.timeline-item-promotion .timeline-content {
+  background: linear-gradient(135deg, var(--accent-dim), transparent 58%);
+  border: 1px solid var(--accent-dim);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: 0 16px 36px var(--shadow);
+}
+.timeline-item-promotion .timeline-marker {
+  width: 16px;
+  height: 16px;
+  background: var(--ai-accent);
+  box-shadow: 0 0 0 5px var(--bg), 0 0 24px var(--ai-glow);
+}
+.promotion-path {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.85rem 0;
+}
+.promotion-path span {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--accent-dim);
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.promotion-path span:not(:last-child)::after {
+  content: '→';
+  margin-left: 0.55rem;
+  color: var(--ai-accent);
 }
 .timeline-roles li {
   font-size: 0.95rem;
