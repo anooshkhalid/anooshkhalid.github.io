@@ -457,11 +457,7 @@ img { max-width: 100%; height: auto; display: block; }
   background: radial-gradient(ellipse 70% 50% at 50% 30%, var(--accent-glow), transparent 55%);
   pointer-events: none;
 }
-.hero-inner-starter {
-  display: block !important;
-  text-align: center;
-  padding: 2rem 0 1rem;
-}
+
 .hero-name-starter {
   font-family: var(--font-head);
   font-weight: 800;
@@ -471,17 +467,7 @@ img { max-width: 100%; height: auto; display: block; }
   margin-bottom: 0.5rem;
   line-height: 1.1;
 }
-.hero-role-starter {
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  color: var(--text-muted);
-  margin-bottom: 0.25rem;
-}
-.hero-tagline-starter {
-  font-size: 0.95rem;
-  color: var(--accent);
-  margin-bottom: 2.5rem;
-  letter-spacing: 0.02em;
-}
+
 .hero-nav-links {
   display: flex;
   justify-content: center;
@@ -841,11 +827,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--text-muted);
   margin-bottom: 0.25rem;
 }
-.timeline-products {
-  font-size: 0.85rem;
-  color: var(--accent);
-  margin-bottom: 0.75rem;
-}
+
 .timeline-roles li {
   font-size: 0.95rem;
   color: var(--text-muted);
@@ -1098,4 +1080,50 @@ a.contact-card:hover {
   .hero-name-starter { font-size: 2rem; }
   .hero-nav-links { gap: 1.5rem; }
   .stats-strip-starter { grid-template-columns: 1fr; }
+}
+
+/* Keep your existing reset and theme variables, then add/replace these: */
+
+.hero-role-starter {
+  color: var(--accent);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid var(--accent-dim);
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.expertise-card:first-of-type {
+  border: 2px solid var(--accent);
+  background: var(--accent-dim);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.timeline-products {
+  font-size: 0.9rem;
+  color: #e67e22; /* High-contrast orange for promotion path */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+[data-theme="light"] .timeline-products {
+  color: #d35400;
+}
+
+/* Ensure the hero text is centered and powerful */
+.hero-inner-starter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-tagline-starter {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin-top: 10px;
 }
